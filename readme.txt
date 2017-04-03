@@ -1,6 +1,6 @@
 Funzioni di questo package ed esempi di chiamata:
 
-export HTTP_PROXY=http://proxy.mmfg.it:8080
+
 
 ###########
 ##### estrarre i log da ot e creare il file da importare su mm
@@ -31,3 +31,4 @@ from inserimento_jira
 where utente in ('mazzoli.a','beltrami.e','baronio.l','scinicariello.m')
 and data like '2017-03%'
 group by jira_issue
+
